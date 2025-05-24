@@ -5,6 +5,10 @@ public class DataTypes {
                               // small can be used but not in convention
         long e = 2147483648l;
         System.out.println(e);
+        // byte 8 bits
+        // char 16 bits
+        // float 32 bits
+        //double 64 bits
         // every integer constant/literal in java is int by default
         // maximum ranges:
         // byte: 127
