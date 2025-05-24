@@ -37,9 +37,12 @@ public class DataTypes {
         char ch = 'a';
         char ch1 = 97;
         System.out.println(ch+" is same as "+ch1); // output: a is same as a
-        for (char i = 0; i < 65535; i++) {
-            System.out.print(i);
-            if (i%80==0) System.out.println(); // new line char after 80 chars
-        }
+        double u = 0.1f;
+        System.out.println(u); //output is 0.10000000149011612, weord but close and accepted
+
+//        for (char i = 0; i < 65535; i++) {
+//            System.out.print(i);
+//            if (i%80==0) System.out.println(); // new line char after 80 chars
+//        }
     }
 }
