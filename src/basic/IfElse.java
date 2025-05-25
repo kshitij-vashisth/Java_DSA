@@ -11,6 +11,6 @@ public class IfElse {
         }
         // We can have an else statement here, but we don't need it
         System.out.printf("Good Morning ma'am");
-        return;
+        return; // this return is not required but let's not forget it anyway
     }
 }
