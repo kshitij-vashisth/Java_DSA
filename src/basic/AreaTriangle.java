@@ -9,6 +9,6 @@ public class AreaTriangle {
         double c = sc.nextDouble();
         double s = (a+b+c)/2;
         double areaSQ = (s*(s-a)*(s-b)*(s-c));
-        System.out.println("Area is "+Math.sqrt(areaSQ)+" sq units.");
+        System.out.printf("Area is %.2f sq units.",Math.sqrt(areaSQ));
     }
 }
