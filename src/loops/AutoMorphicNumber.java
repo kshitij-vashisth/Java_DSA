@@ -2,12 +2,12 @@ package loops;
 
 public class AutoMorphicNumber {
     public static void main(String[] args) {
-        int n = 7;
+        int n = 25;
         int temp = n;
         int c = 0;
         while (n != 0) {
             c++;
-            n = n / 10;
+            n /= 10;
         }
         n = temp;
         long sq = n * n;
